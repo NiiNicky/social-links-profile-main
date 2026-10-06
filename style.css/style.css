@@ -1,0 +1,30 @@
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: inter;
+      src: url("./assets/fonts/static/Inter-Regular.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: inter;
+      src: url("./assets/fonts/static/Inter-Regular.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Seletor Global */
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
