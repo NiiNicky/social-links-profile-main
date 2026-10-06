@@ -19,7 +19,7 @@
     font-style: normal;
 }
 
-/* Seletor Global */
+/*Seletor Global*/
 * {
     margin: 0;
     padding: 0;
@@ -27,4 +27,73 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color:hsl(0, 0%, 8%);
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;max-width: 320%;
+    border-radius: 16px;
+    padding: 25px;
+
+    text-align: center;
+
+}
+
+img{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    margin-top: 28px;
+    font-size: 24px;
+}
+
+h2{
+    color:hsl(75, 94%, 57%);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.758);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+li{
+     margin-bottom: 20px;
+}
+
+a{
+    background-color: hsl(0, 0%, 20%);
+    color: rgba(255, 255, 255, 0.758);
+    font-weight: 600;
+
+    display: inline-block;
+    width: 100px;
+    border-radius: 8px;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+
+a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
 }
